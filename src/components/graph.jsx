@@ -13,7 +13,7 @@ import Data from "../data/MoneyData.jsx";
 
 function Graph() {
   return (
-    <div className="relative z-50 text-gray-500 mx-auto w-[358px] bg-[#ffffff] flex flex-col border-1 border-gray-200 pb-2 rounded-3xl mt-10">
+    <div className="relative z-50 text-gray-500 lg:mx-auto lg:w-1/5 w-[358px] bg-[#ffffff] flex flex-col border-1 border-gray-200 pb-2 rounded-3xl mt-10">
       <div className="p-6">
         <p className="font-bold">Income Trend</p>
         <p>Your monthly income and growth for the last 6 months</p>

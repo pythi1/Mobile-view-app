@@ -16,10 +16,9 @@ function CreateInvoice() {
     <div>
 
       <div 
-      className={`relative p-8 bg-[#eaeaea] mb-5 w-[377px] rounded-3xl hover:bg-[#d1c1c1] hover:cursor-pointer z-50`}
+      className={`relative p-8 bg-[#eaeaea] mb-5 lg:w-1/5 lg:mx-auto w-[377px] rounded-3xl hover:bg-[#d1c1c1] hover:cursor-pointer z-50`}
       onClick={() => {
         SetCreateInvoiceForm(!CreateInvoiceForm)
-        console.log(CreateInvoiceForm);
       }
     }
       >

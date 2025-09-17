@@ -3,7 +3,7 @@ import Data from "../data/MoneyData.jsx"
 
 function Calculation() {
   return (
-    <div className="relative z-50 bg-[#ffffff] mx-auto lg:w-2/5 w-[358px] flex flex-col border-1 border-gray-200 p-6 pb-2 rounded-3xl mt-10">
+    <div className="relative z-50 bg-[#ffffff] mx-auto lg:w-1/5 w-[377px] flex flex-col border-1 border-gray-200 p-6 pb-2 rounded-3xl mt-10">
       <div className="flex justify-between space-x-5">
         <p className="text-sm text-gray-500 font-semibold">Time Period</p>
 
