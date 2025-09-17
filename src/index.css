@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+.date-time input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.custom:required:invalid::-webkit-datetime-edit {
+  color: transparent; /* hides dd/mm/yyyy */
+}
+
+.custom:required:invalid::before {
+  content: attr(name);  /* show custom text */
+  color: gray;           
+}
+
+.custom:focus::-webkit-datetime-edit,
+.custom:valid::-webkit-datetime-edit {
+  color: rgb(124, 123, 123); 
+ 
+}
+
+.arrow-only {
+  color: transparent;          /* hides text in closed state */
+  text-shadow: 0 0 0 #0000;    /* prevent ghost text */
+}
+
+.arrow-only option {
+  color: black;                /* show text when dropdown opens */
+}
+
+.select option {
+    @apply bg-blue-300 hover:bg-blue-400 rounded-2xl ;
+}
